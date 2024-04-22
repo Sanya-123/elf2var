@@ -16,7 +16,6 @@ add_library(${PROJECT_NAME} STATIC
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE dwarves)
-target_include_directories(${PROJECT_NAME} PUBLIC varcommon)
 target_link_libraries(${PROJECT_NAME} PRIVATE dwarves)
 
 
