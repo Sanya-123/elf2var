@@ -3,4 +3,4 @@
 	url = https://github.com/acmel/dwarves.git
 [submodule "varcommon"]
 	path = varcommon
-	url = git@gitlab2.pekauto.com:development/firmware/libs/stplotvarcommon.git
+	url = git@gitlab2.pekauto.com:development/firmware/tools/libs/stplotvarcommon.git
