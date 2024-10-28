@@ -782,7 +782,7 @@ varloc_node_t* varloc_open_elf(char* file){
 
     int err = cus__load_file(cus, &conf_load, file);
 	if (err != 0) {
-        cus__fprintf_load_files_err(cus, "pglobal", file, err, stderr);
+        cus__fprintf_load_files_err(cus, "pglobal", NULL, err, stderr);
         goto out_cus_delete;
     }
 
